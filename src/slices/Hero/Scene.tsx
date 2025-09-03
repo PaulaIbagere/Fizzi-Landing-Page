@@ -1,7 +1,7 @@
 "use client"
 
 import FloatingCan from "@/components/FloatingCan"
-import { Environment, OrbitControls } from "@react-three/drei"
+import { Environment } from "@react-three/drei"
 import { useRef } from "react"
 import { Group } from "three"
 import gsap from "gsap"

@@ -8,7 +8,7 @@ import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 import FloatingCan from "@/components/FloatingCan"
-import { Cloud, Clouds, Environment, OrbitControls, Text } from "@react-three/drei";
+import { Cloud, Clouds, Environment, Text } from "@react-three/drei";
 import { useMediaQuery } from "@/hooks/useMediaQuery";
 
 gsap.registerPlugin(useGSAP, ScrollTrigger)
