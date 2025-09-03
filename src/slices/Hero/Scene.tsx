@@ -113,16 +113,16 @@ export default function Scene({}: Props){
   return (
       <group ref={groupRef}>
         <group ref={can1GroupRef}>
-            <FloatingCan ref={can1Ref} flavor="blackCherry" floadSpeed={FLOAT_SPEED}/>
+            <FloatingCan ref={can1Ref} flavor="blackCherry" floatSpeed={FLOAT_SPEED}/>
         </group>
         <group ref={can2GroupRef}>
-            <FloatingCan ref={can2Ref} flavor="lemonLime" floadSpeed={FLOAT_SPEED}/>
+            <FloatingCan ref={can2Ref} flavor="lemonLime" floatSpeed={FLOAT_SPEED}/>
         </group>
 
-        <FloatingCan ref={can3Ref} flavor="grape" floadSpeed={FLOAT_SPEED}/>
-        <FloatingCan ref={can4Ref} flavor="strawberryLemonade" floadSpeed={FLOAT_SPEED}/>
+        <FloatingCan ref={can3Ref} flavor="grape" floatSpeed={FLOAT_SPEED}/>
+        <FloatingCan ref={can4Ref} flavor="strawberryLemonade" floatSpeed={FLOAT_SPEED}/>
 
-        <FloatingCan ref={can5Ref} flavor="watermelon" floadSpeed={FLOAT_SPEED}/>
+        <FloatingCan ref={can5Ref} flavor="watermelon" floatSpeed={FLOAT_SPEED}/>
 
         {/* <OrbitControls/>  */}
         <Environment files={'/hdr/lobby.hdr'} environmentIntensity={1.5} />
